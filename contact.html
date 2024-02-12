@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <style>
+      .field {
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="My resume.html" target="_blank">Back to Resume</a>
+    <h2>Contact me</h2>
+    <form action="contact.php" method="get">
+      <div class="field">
+        <label for="firstname">Firstname</label>
+        <input type="text" name="firstname" id="firstname" />
+      </div>
+      <div class="field">
+        <label for="lastname">Lastname</label>
+        <input type="text" name="lastname" id="lastname" />
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" />
+      </div>
+      <div class="field">
+        <label for="message">Message</label><br />
+        <textarea name="message" rows="10"></textarea>
+      </div>
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
